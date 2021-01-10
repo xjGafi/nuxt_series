@@ -1,73 +1,42 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        nuxt_02
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+    <Swiper :swiper_video="swiper_data.swiper_video" :swiper_image="swiper_data.swiper_image"></Swiper>
   </div>
 </template>
 
 <script>
-export default {}
+  import Swiper from "@/components/Swiper";
+
+  export default {
+    components: {
+      Swiper
+    },
+    data() {
+      return {
+        swiper_data: {
+          swiper_video: {
+            src: "https://www.w3school.com.cn/example/html5/mov_bbb.mp4",
+            poster: ""
+          },
+          swiper_image: [
+            {
+              id: 0,
+              img: "https://picsum.photos/id/1/1920/1080"
+            },
+            {
+              id: 1,
+              img: "https://picsum.photos/id/10/1920/1080"
+            },
+            {
+              id: 3,
+              img: "https://picsum.photos/id/100/1920/1080"
+            }
+          ],
+        },
+      }
+    }
+  }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
