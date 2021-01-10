@@ -1,19 +1,19 @@
 # Nuxt 开发笔记 - （1）快速入门
 
+本文主要介绍对 Nuxt 的基本使用，其中包含 Nuxt项目的创建、nuxt-i18n 国际化和打包部署。
+
 >   前排提示：
 >
 >   -   操作系统：Windows 10 
 >   -   编辑器：VS code & HBuilder X
 >
->   小声嘟囔：官方文档时最好的教程，链接在下面。
->   
->   首发掘金：[Nuxt 开发笔记 - （1）快速入门](https://juejin.cn/post/6914871704372117518/)
+>   相关推荐：[Nuxt 开发笔记 - （2）视频和图文混合轮播](https://juejin.cn/post/6916107026037522440/)
 
 ## 介绍
 
 简介：NuxtJS 让你构建你的下一个 Vue.js 应用程序变得更有信心。这是一个 开源 的框架，让 web 开发变得简单而强大。
 
-官网：[Nuxt 官网（最新版本2.14.8）](https://nuxtjs.org/)，[Nuxt 中文网（最新版本 2.14.5）](https://www.nuxtjs.cn/)
+官网：[Nuxt 官网（最新版本2.14.8）](https://nuxtjs.org/)，[Nuxt 中文网（最新版本 2.14.5）](https://www.nuxtjs.cn/)（官方文档是最好的资料）
 
 ## 安装
 
@@ -238,7 +238,7 @@ Nuxt 是基于 Node.js  运行的，这里默认服务器已经安装 Node.js。
     $ cd 项目名称
     ```
     
-   	启动
+      	启动
    
      ```bash
      $ pm2 start npm --name "项目名称" -- run build
@@ -262,6 +262,10 @@ Nuxt 是基于 Node.js  运行的，这里默认服务器已经安装 Node.js。
      ```
 
      官方还提供可视化监控的工具 [Monitor PM2](https://id.keymetrics.io/api/oauth/register)， 可以自行注册使用
+
+## 源码
+
+GitHub：[Nuxt 开发笔记 - （1）快速入门源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_01)
 
 ## 源码说明
 
