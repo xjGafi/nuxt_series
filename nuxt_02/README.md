@@ -1,15 +1,24 @@
-# Nuxt 开发笔记 - （2）视频和图文混合轮播
+# Nuxt 开发笔记 - 2 视频和图文混合轮播 banner
 
 本文主要介绍在 Nuxt 中使用 vue-awesome-swiper 和 Swiper 插件实现视频和图文混合轮播效果。
 
 >   前排提示：
 >
 >   -   操作系统：Windows 10 
->   -   编辑器：VS code & HBuilder X
->   -   官网文档：[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)，[Swiper](https://swiperjs.com/)（官方文档是最好的资料）
+>   -   编辑器：VS Code & HBuilder X
 >   -   使用版本：`vue-awesome-swiper: 4.1.1`，`Swiper: 4.5.1`
 >
->   相关推荐：[Nuxt 开发笔记 - （1）快速入门](https://juejin.cn/post/6914871704372117518/)
+>   相关推荐：
+>   
+>   -   [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner](https://juejin.cn/post/6914871704372117518/)
+
+## 预览
+
+CodeSandbox: [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner 预览](https://codesandbox.io/s/nuxt02-z0zch)
+
+## 文档
+
+[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)，[Swiper](https://swiperjs.com/)
 
 ## 安装
 
@@ -288,7 +297,7 @@ yarn add swiper@4.5.1 vue-awesome-swiper
 
 ## 源码
 
-Github：[《Nuxt 开发笔记 - （2）视频和图文混合轮播》源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_02)
+Github：[《Nuxt 开发笔记 - 2 视频和图文混合轮播 banner》源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_02)
 
 ## 源码说明
 

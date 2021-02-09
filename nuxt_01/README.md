@@ -1,21 +1,28 @@
-# Nuxt 开发笔记 - （1）快速入门
+# Nuxt 开发笔记 - 1 快速入门
 
 本文主要介绍对 Nuxt 的基本使用，其中包含 Nuxt项目的创建、nuxt-i18n 国际化和打包部署。
 
 >   前排提示：
 >
->   -   操作系统：Windows 10 
->   -   编辑器：VS code & HBuilder X
+>   -   操作系统：Windows 10
+>   -   编辑器：VS Code & HBuilder X
+>   -   使用版本：`nuxt: 2.14.6`，`nuxt-i18n: 6.17.0`
 >
->   相关推荐：[Nuxt 开发笔记 - （2）视频和图文混合轮播](https://juejin.cn/post/6916107026037522440/)
+>   相关推荐：
+>   
+>   -   [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner](https://juejin.cn/post/6916107026037522440/)
 
-## 介绍
+## 预览
 
-简介：NuxtJS 让你构建你的下一个 Vue.js 应用程序变得更有信心。这是一个 开源 的框架，让 web 开发变得简单而强大。
+CodeSandbox: [Nuxt 开发笔记 - 1 快速入门预览](https://codesandbox.io/s/nuxt01-3xfne)
 
-官网：[Nuxt 官网（最新版本2.14.8）](https://nuxtjs.org/)，[Nuxt 中文网（最新版本 2.14.5）](https://www.nuxtjs.cn/)（官方文档是最好的资料）
+## 文档
+
+官网：[Nuxt 官网（最新版本2.14.8）](https://nuxtjs.org/)，[Nuxt 中文网（最新版本 2.14.5）](https://www.nuxtjs.cn/)
 
 ## 安装
+
+>   NuxtJS 让你构建你的下一个 Vue.js 应用程序变得更有信心。这是一个开源的框架，让 web 开发变得简单而强大。
 
 详细安装步骤请见：[Nuxt 中文网学习指南](https://www.nuxtjs.cn/guide/installation)（Nuxt 官网没有安装时配置的选择说明，或许是我没找到）。
 
@@ -265,7 +272,7 @@ Nuxt 是基于 Node.js  运行的，这里默认服务器已经安装 Node.js。
 
 ## 源码
 
-GitHub：[Nuxt 开发笔记 - （1）快速入门源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_01)
+GitHub：[Nuxt 开发笔记 - 1 快速入门源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_01)
 
 ## 源码说明
 
