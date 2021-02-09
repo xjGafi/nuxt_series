@@ -1,5 +1,8 @@
-# nuxt_series
+# Nuxt series
+
 Nuxt 开发笔记系列博客源码
+
+![f8CXe.png](https://s3.jpg.cm/2021/02/09/f8CXe.png)
 
 ## 掘金地址
 
