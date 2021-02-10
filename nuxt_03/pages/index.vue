@@ -1,13 +1,13 @@
 <template>
   <div>
-    <!--    <div class="demo">
+    <div class="demo">
       <h1>vue-scrollmagic 简单 demo</h1>
       <ScrollMagicBasic :sceneData="basicSceneData" />
-    </div> -->
+    </div>
     <div class="demo">
-      <!-- <h1>vue-scrollmagic 结合 gsap 复杂 demo</h1> -->
+      <h1>vue-scrollmagic 结合 gsap 复杂 demo</h1>
       <ScrollMagicAdvanced :sceneData="advancedSceneData">
-      </ScrollMagicAdvanced>
+        </ScrollMagicAdvanced>
     </div>
   </div>
 </template>
