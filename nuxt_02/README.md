@@ -11,6 +11,7 @@
 >   相关推荐：
 >   
 >   -   [Nuxt 开发笔记 - 1 快速入门](https://juejin.cn/post/6914871704372117518/)
+>   -   [Nuxt 开发笔记 - 3 滚动交互动效](https://juejin.cn/post/6927758877370875912/)
 
 ## 预览
 
@@ -24,9 +25,9 @@ CodeSandbox: [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner 预览](h
 
 详细安装步骤请见：[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)
 
-官方推荐 `Swiper` 安装版本 `5.x` 版本，但是我在 Nuxt 中用使用一直抛错，最后选择了 `4.5.1` 版本。
+官方推荐 `Swiper` 安装版本 `5.x` 版本，但是笔者在 Nuxt 中用使用一直抛错，最后选择了 `4.5.1` 版本。
 
-下面只是我的使用方式，仅供参考。
+下面只是笔者的使用方式，仅供参考。
 
 ```bash
 # 安装
@@ -37,7 +38,7 @@ yarn add swiper@4.5.1 vue-awesome-swiper
 
 官方提供了 Demo 请见：[SSR example code](https://github.com/surmon-china/surmon-china.github.io/tree/source/projects/vue-awesome-swiper/nuxt)
 
-下面只是我的使用方式，仅供参考。
+下面只是笔者的使用方式，仅供参考。
 
 1.  在 `plugins` 文件夹中新建 `vue-awesome-swiper.js` 文件
 
@@ -70,7 +71,7 @@ yarn add swiper@4.5.1 vue-awesome-swiper
 
 ## 使用
 
-1.  在 `components` 文件夹中创建 `Swiper` 组件
+1.  在 `components` 文件夹中创建 `Swiper.vue` 组件
 
     ```vue
     <template>

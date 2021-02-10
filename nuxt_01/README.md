@@ -11,6 +11,7 @@
 >   相关推荐：
 >   
 >   -   [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner](https://juejin.cn/post/6916107026037522440/)
+>   -   [Nuxt 开发笔记 - 3 滚动交互动效](https://juejin.cn/post/6927758877370875912/)
 
 ## 预览
 
@@ -24,9 +25,9 @@ CodeSandbox: [Nuxt 开发笔记 - 1 快速入门](https://codesandbox.io/s/nuxt0
 
 >   NuxtJS 让你构建你的下一个 Vue.js 应用程序变得更有信心。这是一个开源的框架，让 web 开发变得简单而强大。
 
-详细安装步骤请见：[Nuxt 中文网学习指南](https://www.nuxtjs.cn/guide/installation)（Nuxt 官网没有安装时配置的选择说明，或许是我没找到）。
+详细安装步骤请见：[Nuxt 中文网学习指南](https://www.nuxtjs.cn/guide/installation)（Nuxt 官网没有安装时配置的选择说明，或许是笔者没找到）。
 
-下面只是我的使用方式，仅供参考。
+下面只是笔者的使用方式，仅供参考。
 
 1.  打开终端
 
@@ -52,9 +53,9 @@ CodeSandbox: [Nuxt 开发笔记 - 1 快速入门](https://codesandbox.io/s/nuxt0
 
 有 [nuxt-i8n](https://i18n.nuxtjs.org/) 和 [vue-i18n](https://kazupon.github.io/vue-i18n/) 可供选择。
 
-我选择 `nuxt-i8n` ，官网文档只有英文的，看不懂可以安装浏览器插件 [沙拉查词](https://saladict.crimx.com/)（内置彩云小译，用了都说好）。
+笔者选择 `nuxt-i8n` ，官网文档只有英文的，看不懂可以安装浏览器插件 [沙拉查词](https://saladict.crimx.com/)（内置彩云小译，用了都说好）。
 
-下面只是我的使用方式，仅供参考。
+下面只是笔者的使用方式，仅供参考。
 
 1.  打开终端
 
@@ -229,7 +230,7 @@ Nuxt 是基于 Node.js  运行的，这里默认服务器已经安装 Node.js。
 
 4.  配置域名实现外部网络访问
 
-    后端的大哥帮我配置在 `Apache` 上了，大多数教程采用 `Nginx`，可以自行搜索。
+    后端的大哥帮笔者配置在 `Apache` 上了，大多数教程采用 `Nginx`，可以自行搜索。
 
     你会发现关闭服务器终端后，服务就断了。
 
