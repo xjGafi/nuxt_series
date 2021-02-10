@@ -19,7 +19,7 @@ CodeSandbox: [Nuxt 开发笔记 - 3 滚动交互动效](https://codesandbox.io/)
 
 ## 文档
 
-[GSAP 官网](https://greensock.com/)，[vue-scrollmagic）](https://github.com/magr0s/vue-scrollmagic)，[ScrollMagic 官网](http://scrollmagic.io/)
+[GSAP 官网](https://greensock.com/)，[vue-scrollmagic](https://github.com/magr0s/vue-scrollmagic)，[ScrollMagic 官网](http://scrollmagic.io/)
 
 ## 安装
 
@@ -55,16 +55,17 @@ $ yarn add vue-scrollmagic
      @gsap:registry=https://npm.greensock.com
      ```
 
-     打开终端
+      打开终端
 
      ```bash
-     # <package> 有以下选项 business, shockingly, simply, or member，在官网 Dashboard 页面（上图）的右边栏中有标明，一般默认是 member。
-     $ yarn add gsap@npm:@gsap/<package>
+      # <package> 有以下选项 business, shockingly, simply, or member，在官网 Dashboard 页面（上图）的右边栏中有标明，一般默认是 member。
+     
+      $ yarn add gsap@npm:@gsap/<package>
      ```
 
 3.   通过 `gsap-bonus.tgz` 文件安装
 
-     在下载的压缩包里找到该文件并放到项目根目录里
+     在下载的压缩包里找到该文件，将其放到项目根目录下
 
      ![](../../../../Typora%20Files/Snipaste_2021-02-10_22-56-17.png)
 
@@ -74,7 +75,79 @@ $ yarn add vue-scrollmagic
      $ yarn add ./gsap-bonus.tgz
      ```
 
-4.   步骤 2、3 选择一种即可，二者安装后的 `package.json` 文件中有一些差异 `"gsap": "npm:@gsap/member" / "gsap": "file:gsap-bonus.tgz"`
+2.   步骤 2、3 选择一种即可，二者安装后的 `package.json` 文件中有一些差异 `"gsap": "npm:@gsap/member" / "gsap": "file:gsap-bonus.tgz"`
+
+## 配置
+
+官方提供了 Demo 请见：[SSR example code](https://github.com/surmon-china/surmon-china.github.io/tree/source/projects/vue-awesome-swiper/nuxt)
+
+下面只是我的使用方式，仅供参考。
+
+1.  在 `plugins` 文件夹中新建 `vue-scrollmagic.js` 文件
+
+    ```javascript
+    import Vue from "vue";
+    import VueScrollmagic from "vue-scrollmagic";
+
+    Vue.use(VueScrollmagic);
+    ```
+
+
+2.  修改根目录中的 `nuxt.config.js` 文件
+
+    ```bash    
+    plugins: [
+      {
+        src: "@/plugins/vue-scrollmagic.js",
+        ssr: false
+      }
+    ],
+    ```
+
+## 使用
+
+1.  在 `components` 文件夹中创建 `ScrollMagicBase.vue` 组件
+
+    ```vue
+    <template>
+      
+    </template>
+    <script>
+      export default {
+        name: "ScrollMagicBase",
+      };
+    </script>
+    
+    <style>
+    </style>
+    ```
+
+2.  在 `pages` 文件夹中的 `index.vue` 文件中使用该组件
+
+    ```vue
+    <template>
+      <div>
+      </div>
+    </template>
+    
+    <script>
+      import ScrollMagicBase from "@/components/ScrollMagicBase";
+    
+      export default {
+        components: {
+          ScrollMagicBase
+        },
+        data() {
+          return {
+            },
+          }
+        }
+      }
+    </script>
+    
+    <style>
+    </style>
+    ```
 
 ##  源码
 
