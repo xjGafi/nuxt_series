@@ -3644,10 +3644,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.5.tgz#bc18864a6c9fc7b303f2e2abdb9155ad178fbe29"
   integrity sha1-vBiGSmyfx7MD8uKr25FVrRePvik=
 
-gsap@./gsap-bonus.tgz:
-  version "3.6.0"
-  resolved "./gsap-bonus.tgz#3eaf348d2ace919efd3ba942cbb02879d36b3546"
-
 gsap@^2.1.3:
   version "2.1.3"
   resolved "https://registry.npm.taobao.org/gsap/download/gsap-2.1.3.tgz?cache=0&sync_timestamp=1610426537974&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgsap%2Fdownload%2Fgsap-2.1.3.tgz#c63ee3a50f0b7dc3b46ed0845bb0f09049feb944"
