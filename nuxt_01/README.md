@@ -14,11 +14,11 @@
 
 ## 预览
 
-CodeSandbox: [Nuxt 开发笔记 - 1 快速入门预览](https://codesandbox.io/s/nuxt01-3xfne)
+CodeSandbox: [Nuxt 开发笔记 - 1 快速入门](https://codesandbox.io/s/nuxt01-3xfne)
 
 ## 文档
 
-官网：[Nuxt 官网（最新版本2.14.8）](https://nuxtjs.org/)，[Nuxt 中文网（最新版本 2.14.5）](https://www.nuxtjs.cn/)
+[Nuxt 官网（最新版本2.14.8）](https://nuxtjs.org/)，[Nuxt 中文网（最新版本 2.14.5）](https://www.nuxtjs.cn/)
 
 ## 安装
 
@@ -272,7 +272,9 @@ Nuxt 是基于 Node.js  运行的，这里默认服务器已经安装 Node.js。
 
 ## 源码
 
-GitHub：[Nuxt 开发笔记 - 1 快速入门源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_01)
+CodeSandbox: [Nuxt 开发笔记 - 1 快速入门](https://codesandbox.io/s/nuxt01-3xfne)
+
+GitHub：[Nuxt 开发笔记 - 1 快速入门](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_01)
 
 ## 源码说明
 

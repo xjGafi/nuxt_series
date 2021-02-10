@@ -10,7 +10,7 @@
 >
 >   相关推荐：
 >   
->   -   [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner](https://juejin.cn/post/6914871704372117518/)
+>   -   [Nuxt 开发笔记 - 1 快速入门](https://juejin.cn/post/6914871704372117518/)
 
 ## 预览
 
@@ -297,7 +297,9 @@ yarn add swiper@4.5.1 vue-awesome-swiper
 
 ## 源码
 
-Github：[《Nuxt 开发笔记 - 2 视频和图文混合轮播 banner》源码](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_02)
+CodeSandbox: [Nuxt 开发笔记 - 2 视频和图文混合轮播 banner](https://codesandbox.io/s/nuxt02-z0zch)
+
+Github：[Nuxt 开发笔记 - 2 视频和图文混合轮播 banner](https://github.com/xjGafi/nuxt_series/tree/master/nuxt_02)
 
 ## 源码说明
 
