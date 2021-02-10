@@ -1,0 +1,18 @@
+{
+  "name": "nuxt_03",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "gsap": "npm:@gsap/member",
+    "nuxt": "^2.14.12",
+    "vue-scrollmagic": "^1.2.0"
+  },
+  "devDependencies": {}
+}
